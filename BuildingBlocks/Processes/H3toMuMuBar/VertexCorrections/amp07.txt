@@ -1,0 +1,5 @@
+I*Pi^2*(((I/32)*CS1S1S1f312*EL^2*MM^3*YukS1Lep1*YukS1Lep2*B0[MH3^2, MH1^2, MH2^2])/((MH3^2 - 4*MM^2)*MW^2*Pi^4*SW^2) - 
+  ((I/64)*CS1S1S1f312*EL^2*MM^3*YukS1Lep1*YukS1Lep2*B0[MM^2, MH1^2, MM^2])/((MH3^2 - 4*MM^2)*MW^2*Pi^4*SW^2) - 
+  ((I/64)*CS1S1S1f312*EL^2*MM^3*YukS1Lep1*YukS1Lep2*B0[MM^2, MH2^2, MM^2])/((MH3^2 - 4*MM^2)*MW^2*Pi^4*SW^2) - 
+  ((I/64)*CS1S1S1f312*EL^2*MM^3*(MH1^2 + MH2^2 + MH3^2 - 8*MM^2)*YukS1Lep1*YukS1Lep2*C0[MH3^2, MM^2, MM^2, MH1^2, MH2^2, MM^2])/
+   ((MH3^2 - 4*MM^2)*MW^2*Pi^4*SW^2))*StandardMatrixElement[Spinor[Momentum[p3], MM, 1] . Spinor[-Momentum[p4], MM, 1]]

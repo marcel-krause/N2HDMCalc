@@ -1,0 +1,12 @@
+I*Pi^2*(((I/32)*EL*MT*RR32*((EL^2*MS*MT^3*SB^2)/(MW^2*SW^2) - (EL^2*MH3^2*MS*MT*SB^2*YukS3Quark1)/(2*MW^2*SW^2) + 
+     (EL^2*MS^3*MT*SB^2*YukS3Quark1^2)/(MW^2*SW^2))*B0[MH3^2, MT^2, MT^2]*CKM[3, 2]*Conjugate[CKM[3, 2]])/
+   ((MH3^2 - 4*MS^2)*MW*Pi^4*SB^3*SW) - ((I/16)*EL*MS*MT*RR32*((EL^2*MT^3*SB^2)/(2*MW^2*SW^2) - 
+     (EL^2*MS^2*MT*SB^2*YukS3Quark1)/(MW^2*SW^2) + (EL^2*MS^2*MT*SB^2*YukS3Quark1^2)/(2*MW^2*SW^2))*B0[MS^2, MT^2, MW^2]*CKM[3, 2]*
+    Conjugate[CKM[3, 2]])/((MH3^2 - 4*MS^2)*MW*Pi^4*SB^3*SW) + 
+  ((I/32)*EL*MT*RR32*((EL^2*MS*MT^3*SB^2)/SW^2 + (EL^2*MH3^2*MS*MT^3*SB^2)/(2*MW^2*SW^2) - (EL^2*MS^3*MT^3*SB^2)/(MW^2*SW^2) - 
+     (EL^2*MS*MT^5*SB^2)/(MW^2*SW^2) - (EL^2*MH3^2*MS*MT*SB^2*YukS3Quark1)/(2*SW^2) - (EL^2*MH3^2*MS^3*MT*SB^2*YukS3Quark1)/
+      (2*MW^2*SW^2) - (EL^2*MH3^2*MS*MT^3*SB^2*YukS3Quark1)/(2*MW^2*SW^2) + (4*EL^2*MS^3*MT^3*SB^2*YukS3Quark1)/(MW^2*SW^2) + 
+     (EL^2*MS^3*MT*SB^2*YukS3Quark1^2)/SW^2 + (EL^2*MH3^2*MS^3*MT*SB^2*YukS3Quark1^2)/(2*MW^2*SW^2) - 
+     (EL^2*MS^5*MT*SB^2*YukS3Quark1^2)/(MW^2*SW^2) - (EL^2*MS^3*MT^3*SB^2*YukS3Quark1^2)/(MW^2*SW^2))*
+    C0[MH3^2, MS^2, MS^2, MT^2, MT^2, MW^2]*CKM[3, 2]*Conjugate[CKM[3, 2]])/((MH3^2 - 4*MS^2)*MW*Pi^4*SB^3*SW))*
+ StandardMatrixElement[Spinor[Momentum[p3], MS, 1] . Spinor[-Momentum[p4], MS, 1]]

@@ -1,0 +1,2 @@
+-(CS1S3S3f311*(Lam4 - Lam5)^2*(-CB^2 - SB^2)^2*((-2*CB^2*MW*SW)/EL - (2*MW*SB^2*SW)/EL)^2*C0[MA0^2, MA0^2, MH3^2, MW^2, MHp^2, MW^2])/
+ (64*Pi^2)

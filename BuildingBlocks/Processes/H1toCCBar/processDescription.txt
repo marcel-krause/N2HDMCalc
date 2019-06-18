@@ -1,0 +1,2 @@
+H1 -> C,CBar
+MH1,MC,MC

@@ -1,0 +1,2 @@
+H2 -> U,UBar
+MH2,MU,MU

@@ -1,0 +1,2 @@
+H1 -> T,TBar
+MH1,MT,MT

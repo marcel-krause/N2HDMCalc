@@ -1,0 +1,18 @@
+I*Pi^2*((((-I/32)*EL^3*ML^2*(MH3^2 - 2*MZ^2)*(CW^4 - 2*CW^2*SW^2 + 5*SW^4)*YukS1Lep3)/(CW^2*MH3^2*MW*(MH3^2 - 4*MZ^2)*Pi^4*SW^3) - 
+    ((I/32)*EL^3*ML^2*(CW^4*MH3^4 - 2*CW^4*MH3^2*MZ^2 + 4*CW^4*MZ^4 + 2*CW^2*MH3^4*SW^2 - 12*CW^2*MH3^2*MZ^2*SW^2 - 8*CW^2*MZ^4*SW^2 + 
+       MH3^4*SW^4 + 6*MH3^2*MZ^2*SW^4 + 20*MZ^4*SW^4)*YukS1Lep3*B0[MH3^2, ML^2, ML^2])/(CW^2*MH3^2*MW*(MH3^2 - 4*MZ^2)^2*Pi^4*SW^3) + 
+    ((I/32)*EL^3*ML^2*(CW^4*MH3^4 - 2*CW^4*MH3^2*MZ^2 + 4*CW^4*MZ^4 + 2*CW^2*MH3^4*SW^2 - 12*CW^2*MH3^2*MZ^2*SW^2 - 8*CW^2*MZ^4*SW^2 + 
+       MH3^4*SW^4 + 6*MH3^2*MZ^2*SW^4 + 20*MZ^4*SW^4)*YukS1Lep3*B0[MZ^2, ML^2, ML^2])/(CW^2*MH3^2*MW*(MH3^2 - 4*MZ^2)^2*Pi^4*SW^3) - 
+    ((I/32)*EL^3*ML^2*(MH3^2 - 2*MZ^2)*(2*CW^4*MH3^2*ML^2 + CW^4*MH3^2*MZ^2 - 8*CW^4*ML^2*MZ^2 + 2*CW^4*MZ^4 + 2*CW^2*MH3^4*SW^2 - 
+       4*CW^2*MH3^2*ML^2*SW^2 - 10*CW^2*MH3^2*MZ^2*SW^2 + 16*CW^2*ML^2*MZ^2*SW^2 - 4*CW^2*MZ^4*SW^2 - 2*MH3^4*SW^4 + 
+       10*MH3^2*ML^2*SW^4 + 13*MH3^2*MZ^2*SW^4 - 40*ML^2*MZ^2*SW^4 + 10*MZ^4*SW^4)*YukS1Lep3*C0[MH3^2, MZ^2, MZ^2, ML^2, ML^2, ML^2])/
+     (CW^2*MH3^2*MW*(MH3^2 - 4*MZ^2)^2*Pi^4*SW^3))*StandardMatrixElement[Pair[Momentum[p3], Momentum[Polarization[p4, -I]]]*
+     Pair[Momentum[p4], Momentum[Polarization[p3, -I]]]] + 
+  (((I/64)*EL^3*ML^2*(CW^4 - 2*CW^2*SW^2 + 5*SW^4)*YukS1Lep3)/(CW^2*MW*Pi^4*SW^3) + 
+    ((I/32)*EL^3*ML^2*MZ^2*(CW^4 - 2*CW^2*SW^2 + 5*SW^4)*YukS1Lep3*B0[MH3^2, ML^2, ML^2])/(CW^2*MW*(MH3^2 - 4*MZ^2)*Pi^4*SW^3) - 
+    ((I/64)*EL^3*ML^2*(CW^4*MH3^2 - 2*CW^4*MZ^2 + 2*CW^2*MH3^2*SW^2 - 12*CW^2*MZ^2*SW^2 + MH3^2*SW^4 + 6*MZ^2*SW^4)*YukS1Lep3*
+      B0[MZ^2, ML^2, ML^2])/(CW^2*MW*(MH3^2 - 4*MZ^2)*Pi^4*SW^3) + 
+    ((I/64)*EL^3*ML^2*(CW^4*MH3^2*MZ^2 - 2*CW^4*MZ^4 + 2*CW^2*MH3^4*SW^2 - 8*CW^2*MH3^2*ML^2*SW^2 - 10*CW^2*MH3^2*MZ^2*SW^2 + 
+       32*CW^2*ML^2*MZ^2*SW^2 + 4*CW^2*MZ^4*SW^2 - 2*MH3^4*SW^4 + 8*MH3^2*ML^2*SW^4 + 13*MH3^2*MZ^2*SW^4 - 32*ML^2*MZ^2*SW^4 - 
+       10*MZ^4*SW^4)*YukS1Lep3*C0[MH3^2, MZ^2, MZ^2, ML^2, ML^2, ML^2])/(CW^2*MW*(MH3^2 - 4*MZ^2)*Pi^4*SW^3))*
+   StandardMatrixElement[Pair[Momentum[Polarization[p3, -I]], Momentum[Polarization[p4, -I]]]])

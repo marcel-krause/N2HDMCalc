@@ -1,0 +1,1 @@
+(EL*MW*(CB*RR11 + RR12*SB)*(CW^2 + SW^2)^2*Pair[Momentum[Polarization[p3, -I]], Momentum[Polarization[p4, -I]]])/(CW^2*SW)

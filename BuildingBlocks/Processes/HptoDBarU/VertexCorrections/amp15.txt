@@ -1,0 +1,20 @@
+I*Pi^2*((((-I/64)*CS1S3S3f122*EL*MD^2*YukS1Quark1*(-((CB*EL*MU)/(Sqrt[2]*MW*SW)) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*
+      B0[MD^2, MD^2, MH1^2]*CKM[1, 1])/((MD - MHp + MU)*(MD + MHp + MU)*MW*Pi^4*SB*SW) + 
+    ((I/64)*CS1S3S3f122*EL*MD*(MD + MU)*YukS1Quark1*(-((CB*EL*MU)/(Sqrt[2]*MW*SW)) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*
+      B0[MHp^2, MH1^2, MHp^2]*CKM[1, 1])/((MD - MHp + MU)*(MD + MHp + MU)*MW*Pi^4*SB*SW) - 
+    ((I/64)*CS1S3S3f122*EL*MD*MU*YukS1Quark1*(-((CB*EL*MU)/(Sqrt[2]*MW*SW)) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*
+      B0[MU^2, MD^2, MHp^2]*CKM[1, 1])/((MD - MHp + MU)*(MD + MHp + MU)*MW*Pi^4*SB*SW) + 
+    ((I/64)*CS1S3S3f122*EL*MD*(2*MD^3 - 2*MD*MHp^2 + 4*MD^2*MU - MH1^2*MU + 2*MD*MU^2)*YukS1Quark1*
+      (-((CB*EL*MU)/(Sqrt[2]*MW*SW)) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*C0[MD^2, MHp^2, MU^2, MD^2, MH1^2, MHp^2]*CKM[1, 1])/
+     ((MD - MHp + MU)*(MD + MHp + MU)*MW*Pi^4*SB*SW))*StandardMatrixElement[Spinor[Momentum[p4], MU, 1] . 
+     Spinor[-Momentum[p3], MD, 1]] + 
+  (((-I/64)*CS1S3S3f122*EL*MD^2*YukS1Quark1*((CB*EL*MU)/(Sqrt[2]*MW*SW) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*B0[MD^2, MD^2, MH1^2]*
+      CKM[1, 1])/((MD - MHp - MU)*(MD + MHp - MU)*MW*Pi^4*SB*SW) + 
+    ((I/64)*CS1S3S3f122*EL*MD*(MD - MU)*YukS1Quark1*((CB*EL*MU)/(Sqrt[2]*MW*SW) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*
+      B0[MHp^2, MH1^2, MHp^2]*CKM[1, 1])/((MD - MHp - MU)*(MD + MHp - MU)*MW*Pi^4*SB*SW) + 
+    ((I/64)*CS1S3S3f122*EL*MD*MU*YukS1Quark1*((CB*EL*MU)/(Sqrt[2]*MW*SW) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*B0[MU^2, MD^2, MHp^2]*
+      CKM[1, 1])/((MD - MHp - MU)*(MD + MHp - MU)*MW*Pi^4*SB*SW) + 
+    ((I/64)*CS1S3S3f122*EL*MD*(2*MD^3 - 2*MD*MHp^2 - 4*MD^2*MU + MH1^2*MU + 2*MD*MU^2)*YukS1Quark1*
+      ((CB*EL*MU)/(Sqrt[2]*MW*SW) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*C0[MD^2, MHp^2, MU^2, MD^2, MH1^2, MHp^2]*CKM[1, 1])/
+     ((MD - MHp - MU)*(MD + MHp - MU)*MW*Pi^4*SB*SW))*StandardMatrixElement[Spinor[Momentum[p4], MU, 1] . DiracGamma[5] . 
+     Spinor[-Momentum[p3], MD, 1]])

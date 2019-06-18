@@ -1,0 +1,3 @@
+I*Pi^2*(-(CB*EL^3*MC^3*RR22^2*B0[MA0^2, MC^2, MC^2])/(128*MW^3*Pi^4*SB^3*SW^3) + 
+  (CB*EL^3*MC^3*(4*MC^2 - MH2^2)*RR22^2*C0[MA0^2, MC^2, MC^2, MC^2, MC^2, MH2^2])/(128*MW^3*Pi^4*SB^3*SW^3))*
+ StandardMatrixElement[Spinor[Momentum[p3], MC, 1] . DiracGamma[5] . Spinor[-Momentum[p4], MC, 1]]

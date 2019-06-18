@@ -1,0 +1,2 @@
+H2 -> B,BBar
+MH2,MB,MB

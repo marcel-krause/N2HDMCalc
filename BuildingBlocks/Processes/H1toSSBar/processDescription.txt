@@ -1,0 +1,2 @@
+H1 -> S,SBar
+MH1,MS,MS

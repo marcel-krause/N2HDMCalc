@@ -1,0 +1,2 @@
+(CS1S1S1f223*EL^2*(RR21*RR31 + RR22*RR32)*B0[MH2^2, MH2^2, MH3^2]*
+  StandardMatrixElement[Pair[Momentum[Polarization[p3, -I]], Momentum[Polarization[p4, -I]]]])/(32*Pi^2*SW^2)

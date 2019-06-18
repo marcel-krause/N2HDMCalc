@@ -1,0 +1,4 @@
+I*Pi^2*(((I/128)*EL^3*(RR21*RR31 + RR22*RR32)*(CB*RR22 - RR21*SB)*A0[MH2^2])/(MHp^2*Pi^4*SW^3) - 
+  ((I/128)*EL^3*(RR21*RR31 + RR22*RR32)*(CB*RR22 - RR21*SB)*A0[MW^2])/(MHp^2*Pi^4*SW^3) - 
+  ((I/128)*EL^3*(MH2^2 + 3*MHp^2 - MW^2)*(RR21*RR31 + RR22*RR32)*(CB*RR22 - RR21*SB)*B0[MHp^2, MH2^2, MW^2])/(MHp^2*Pi^4*SW^3))*
+ StandardMatrixElement[Pair[Momentum[p3], Momentum[Polarization[p4, -I]]]]

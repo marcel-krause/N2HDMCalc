@@ -1,0 +1,1 @@
+(EL^4*(CB^2 + SB^2)*((2*CB*MW*RR31*SW)/EL + (2*MW*RR32*SB*SW)/EL)*(-2 + 4*B0[MH3^2, MW^2, MW^2]))/(64*Pi^2*SW^4)

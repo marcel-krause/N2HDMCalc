@@ -1,0 +1,2 @@
+H2 -> C,CBar
+MH2,MC,MC

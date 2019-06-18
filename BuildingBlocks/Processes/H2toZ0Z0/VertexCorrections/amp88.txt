@@ -1,0 +1,21 @@
+I*Pi^2*((((I/128)*EL^4*(MH2^2 - 2*MZ^2)*(CB*RR21 + RR22*SB)*(CB*RR31 + RR32*SB)*((2*CB*MW*RR31*SW)/EL + (2*MW*RR32*SB*SW)/EL)*
+      (CW^2 + SW^2)^4)/(CW^4*MH2^2*(MH2^2 - 4*MZ^2)*Pi^4*SW^4) - ((I/64)*EL^4*(CB*RR21 + RR22*SB)*(CB*RR31 + RR32*SB)*
+      ((2*CB*MW*RR31*SW)/EL + (2*MW*RR32*SB*SW)/EL)*(CW^2 + SW^2)^4*A0[MH3^2])/(CW^4*MH2^2*(MH2^2 - 4*MZ^2)*Pi^4*SW^4) + 
+    ((I/64)*EL^4*(CB*RR21 + RR22*SB)*(CB*RR31 + RR32*SB)*((2*CB*MW*RR31*SW)/EL + (2*MW*RR32*SB*SW)/EL)*(CW^2 + SW^2)^4*A0[MZ^2])/
+     (CW^4*MH2^2*(MH2^2 - 4*MZ^2)*Pi^4*SW^4) + ((I/64)*EL^4*(2*MH2^4 + 2*MH2^2*MH3^2 - 9*MH2^2*MZ^2 - 2*MH3^2*MZ^2 + 4*MZ^4)*
+      (CB*RR21 + RR22*SB)*(CB*RR31 + RR32*SB)*((2*CB*MW*RR31*SW)/EL + (2*MW*RR32*SB*SW)/EL)*(CW^2 + SW^2)^4*B0[MH2^2, MZ^2, MZ^2])/
+     (CW^4*MH2^2*(MH2^2 - 4*MZ^2)^2*Pi^4*SW^4) - ((I/64)*EL^4*(2*MH2^4 + MH2^2*MH3^2 - 8*MH2^2*MZ^2 + 2*MH3^2*MZ^2)*(CB*RR21 + RR22*SB)*
+      (CB*RR31 + RR32*SB)*((2*CB*MW*RR31*SW)/EL + (2*MW*RR32*SB*SW)/EL)*(CW^2 + SW^2)^4*B0[MZ^2, MH3^2, MZ^2])/
+     (CW^4*MH2^2*(MH2 - 2*MZ)^2*(MH2 + 2*MZ)^2*Pi^4*SW^4) + 
+    ((I/64)*EL^4*MH3^2*(3*MH2^4 + 2*MH2^2*MH3^2 - 14*MH2^2*MZ^2 - 2*MH3^2*MZ^2 + 8*MZ^4)*(CB*RR21 + RR22*SB)*(CB*RR31 + RR32*SB)*
+      ((2*CB*MW*RR31*SW)/EL + (2*MW*RR32*SB*SW)/EL)*(CW^2 + SW^2)^4*C0[MH2^2, MZ^2, MZ^2, MZ^2, MZ^2, MH3^2])/
+     (CW^4*MH2^2*(MH2^2 - 4*MZ^2)^2*Pi^4*SW^4))*StandardMatrixElement[Pair[Momentum[p3], Momentum[Polarization[p4, -I]]]*
+     Pair[Momentum[p4], Momentum[Polarization[p3, -I]]]] + 
+  (((-I/256)*EL^4*(CB*RR21 + RR22*SB)*(CB*RR31 + RR32*SB)*((2*CB*MW*RR31*SW)/EL + (2*MW*RR32*SB*SW)/EL)*(CW^2 + SW^2)^4)/
+     (CW^4*Pi^4*SW^4) - ((I/256)*EL^4*(MH2^2 + 2*MH3^2 - 4*MZ^2)*(CB*RR21 + RR22*SB)*(CB*RR31 + RR32*SB)*
+      ((2*CB*MW*RR31*SW)/EL + (2*MW*RR32*SB*SW)/EL)*(CW^2 + SW^2)^4*B0[MH2^2, MZ^2, MZ^2])/(CW^4*(MH2^2 - 4*MZ^2)*Pi^4*SW^4) + 
+    ((I/128)*EL^4*MH3^2*(CB*RR21 + RR22*SB)*(CB*RR31 + RR32*SB)*((2*CB*MW*RR31*SW)/EL + (2*MW*RR32*SB*SW)/EL)*(CW^2 + SW^2)^4*
+      B0[MZ^2, MH3^2, MZ^2])/(CW^4*(MH2 - 2*MZ)*(MH2 + 2*MZ)*Pi^4*SW^4) - 
+    ((I/128)*EL^4*MH3^2*(MH2^2 + MH3^2 - 4*MZ^2)*(CB*RR21 + RR22*SB)*(CB*RR31 + RR32*SB)*((2*CB*MW*RR31*SW)/EL + (2*MW*RR32*SB*SW)/EL)*
+      (CW^2 + SW^2)^4*C0[MH2^2, MZ^2, MZ^2, MZ^2, MZ^2, MH3^2])/(CW^4*(MH2^2 - 4*MZ^2)*Pi^4*SW^4))*
+   StandardMatrixElement[Pair[Momentum[Polarization[p3, -I]], Momentum[Polarization[p4, -I]]]])

@@ -1,0 +1,2 @@
+H1 -> Mu,MuBar
+MH1,MM,MM

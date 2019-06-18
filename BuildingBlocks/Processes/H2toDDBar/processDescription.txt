@@ -1,0 +1,2 @@
+H2 -> D,DBar
+MH2,MD,MD

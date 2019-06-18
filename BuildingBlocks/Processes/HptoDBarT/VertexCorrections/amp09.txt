@@ -1,0 +1,20 @@
+I*Pi^2*((((-I/64)*CS1S3S3f122*EL*MD*MT*RR12*(-((CB*EL*MT)/(Sqrt[2]*MW*SW)) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*
+      B0[MD^2, MHp^2, MT^2]*CKM[3, 1])/((MD - MHp + MT)*(MD + MHp + MT)*MW*Pi^4*SB^2*SW) + 
+    ((I/64)*CS1S3S3f122*EL*MT*(MD + MT)*RR12*(-((CB*EL*MT)/(Sqrt[2]*MW*SW)) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*
+      B0[MHp^2, MH1^2, MHp^2]*CKM[3, 1])/((MD - MHp + MT)*(MD + MHp + MT)*MW*Pi^4*SB^2*SW) - 
+    ((I/64)*CS1S3S3f122*EL*MT^2*RR12*(-((CB*EL*MT)/(Sqrt[2]*MW*SW)) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*B0[MT^2, MH1^2, MT^2]*
+      CKM[3, 1])/((MD - MHp + MT)*(MD + MHp + MT)*MW*Pi^4*SB^2*SW) + 
+    ((I/64)*CS1S3S3f122*EL*MT*(-(MD*MH1^2) + 2*MD^2*MT - 2*MHp^2*MT + 4*MD*MT^2 + 2*MT^3)*RR12*
+      (-((CB*EL*MT)/(Sqrt[2]*MW*SW)) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*C0[MD^2, MHp^2, MT^2, MT^2, MHp^2, MH1^2]*CKM[3, 1])/
+     ((MD - MHp + MT)*(MD + MHp + MT)*MW*Pi^4*SB^2*SW))*StandardMatrixElement[Spinor[Momentum[p4], MT, 1] . 
+     Spinor[-Momentum[p3], MD, 1]] + 
+  (((I/64)*CS1S3S3f122*EL*MD*MT*RR12*((CB*EL*MT)/(Sqrt[2]*MW*SW) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*B0[MD^2, MHp^2, MT^2]*
+      CKM[3, 1])/((MD - MHp - MT)*(MD + MHp - MT)*MW*Pi^4*SB^2*SW) - 
+    ((I/64)*CS1S3S3f122*EL*(MD - MT)*MT*RR12*((CB*EL*MT)/(Sqrt[2]*MW*SW) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*
+      B0[MHp^2, MH1^2, MHp^2]*CKM[3, 1])/((MD - MHp - MT)*(MD + MHp - MT)*MW*Pi^4*SB^2*SW) - 
+    ((I/64)*CS1S3S3f122*EL*MT^2*RR12*((CB*EL*MT)/(Sqrt[2]*MW*SW) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*B0[MT^2, MH1^2, MT^2]*
+      CKM[3, 1])/((MD - MHp - MT)*(MD + MHp - MT)*MW*Pi^4*SB^2*SW) + 
+    ((I/64)*CS1S3S3f122*EL*MT*(MD*MH1^2 + 2*MD^2*MT - 2*MHp^2*MT - 4*MD*MT^2 + 2*MT^3)*RR12*
+      ((CB*EL*MT)/(Sqrt[2]*MW*SW) + (EL*MD*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*C0[MD^2, MHp^2, MT^2, MT^2, MHp^2, MH1^2]*CKM[3, 1])/
+     ((MD - MHp - MT)*(MD + MHp - MT)*MW*Pi^4*SB^2*SW))*StandardMatrixElement[Spinor[Momentum[p4], MT, 1] . DiracGamma[5] . 
+     Spinor[-Momentum[p3], MD, 1]])

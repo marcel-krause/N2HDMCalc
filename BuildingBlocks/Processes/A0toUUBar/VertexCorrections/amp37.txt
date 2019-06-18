@@ -1,0 +1,4 @@
+I*Pi^2*(-(CB*EL^3*MU*(3*CW^2 - SW^2))/(144*CW^2*MW*Pi^4*SB*SW) + (CB*EL^3*MU*(3*CW^2 - SW^2)*B0[MU^2, MU^2, MZ^2])/
+   (72*CW^2*MW*Pi^4*SB*SW) - (CB*EL^3*MU*(9*CW^4*MU^2 + 12*CW^2*MA0^2*SW^2 - 6*CW^2*MU^2*SW^2 - 4*MA0^2*SW^4 + 17*MU^2*SW^4)*
+    C0[MA0^2, MU^2, MU^2, MU^2, MU^2, MZ^2])/(576*CW^2*MW*Pi^4*SB*SW^3))*
+ StandardMatrixElement[Spinor[Momentum[p3], MU, 1] . DiracGamma[5] . Spinor[-Momentum[p4], MU, 1]]

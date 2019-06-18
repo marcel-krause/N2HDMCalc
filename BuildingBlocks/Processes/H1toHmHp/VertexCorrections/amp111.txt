@@ -1,0 +1,57 @@
+I*Pi^2*(((-I/64)*CB^7*EL*Lam4*MW*RR11*B0[MH1^2, MW^2, MW^2])/(Pi^4*SW) + ((I/64)*CB^7*EL*Lam5*MW*RR11*B0[MH1^2, MW^2, MW^2])/(Pi^4*SW) - 
+  ((I/64)*CB^6*EL*Lam4*MW*RR12*SB*B0[MH1^2, MW^2, MW^2])/(Pi^4*SW) + ((I/64)*CB^6*EL*Lam5*MW*RR12*SB*B0[MH1^2, MW^2, MW^2])/(Pi^4*SW) - 
+  (((3*I)/64)*CB^5*EL*Lam4*MW*RR11*SB^2*B0[MH1^2, MW^2, MW^2])/(Pi^4*SW) + (((3*I)/64)*CB^5*EL*Lam5*MW*RR11*SB^2*B0[MH1^2, MW^2, MW^2])/
+   (Pi^4*SW) - (((3*I)/64)*CB^4*EL*Lam4*MW*RR12*SB^3*B0[MH1^2, MW^2, MW^2])/(Pi^4*SW) + 
+  (((3*I)/64)*CB^4*EL*Lam5*MW*RR12*SB^3*B0[MH1^2, MW^2, MW^2])/(Pi^4*SW) - (((3*I)/64)*CB^3*EL*Lam4*MW*RR11*SB^4*B0[MH1^2, MW^2, MW^2])/
+   (Pi^4*SW) + (((3*I)/64)*CB^3*EL*Lam5*MW*RR11*SB^4*B0[MH1^2, MW^2, MW^2])/(Pi^4*SW) - 
+  (((3*I)/64)*CB^2*EL*Lam4*MW*RR12*SB^5*B0[MH1^2, MW^2, MW^2])/(Pi^4*SW) + (((3*I)/64)*CB^2*EL*Lam5*MW*RR12*SB^5*B0[MH1^2, MW^2, MW^2])/
+   (Pi^4*SW) - ((I/64)*CB*EL*Lam4*MW*RR11*SB^6*B0[MH1^2, MW^2, MW^2])/(Pi^4*SW) + ((I/64)*CB*EL*Lam5*MW*RR11*SB^6*B0[MH1^2, MW^2, MW^2])/
+   (Pi^4*SW) - ((I/64)*EL*Lam4*MW*RR12*SB^7*B0[MH1^2, MW^2, MW^2])/(Pi^4*SW) + ((I/64)*EL*Lam5*MW*RR12*SB^7*B0[MH1^2, MW^2, MW^2])/
+   (Pi^4*SW) - ((I/64)*CB^7*EL*Lam4*MA0^2*MW*RR11*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  ((I/64)*CB^7*EL*Lam5*MA0^2*MW*RR11*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  ((I/64)*CB^7*EL*Lam4*MH1^2*MW*RR11*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  ((I/64)*CB^7*EL*Lam5*MH1^2*MW*RR11*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  ((I/64)*CB^7*EL*Lam4*MHp^2*MW*RR11*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  ((I/64)*CB^7*EL*Lam5*MHp^2*MW*RR11*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  ((I/64)*CB^6*EL*Lam4*MA0^2*MW*RR12*SB*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  ((I/64)*CB^6*EL*Lam5*MA0^2*MW*RR12*SB*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  ((I/64)*CB^6*EL*Lam4*MH1^2*MW*RR12*SB*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  ((I/64)*CB^6*EL*Lam5*MH1^2*MW*RR12*SB*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  ((I/64)*CB^6*EL*Lam4*MHp^2*MW*RR12*SB*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  ((I/64)*CB^6*EL*Lam5*MHp^2*MW*RR12*SB*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  (((3*I)/64)*CB^5*EL*Lam4*MA0^2*MW*RR11*SB^2*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  (((3*I)/64)*CB^5*EL*Lam5*MA0^2*MW*RR11*SB^2*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  (((3*I)/64)*CB^5*EL*Lam4*MH1^2*MW*RR11*SB^2*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  (((3*I)/64)*CB^5*EL*Lam5*MH1^2*MW*RR11*SB^2*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  (((3*I)/64)*CB^5*EL*Lam4*MHp^2*MW*RR11*SB^2*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  (((3*I)/64)*CB^5*EL*Lam5*MHp^2*MW*RR11*SB^2*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  (((3*I)/64)*CB^4*EL*Lam4*MA0^2*MW*RR12*SB^3*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  (((3*I)/64)*CB^4*EL*Lam5*MA0^2*MW*RR12*SB^3*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  (((3*I)/64)*CB^4*EL*Lam4*MH1^2*MW*RR12*SB^3*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  (((3*I)/64)*CB^4*EL*Lam5*MH1^2*MW*RR12*SB^3*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  (((3*I)/64)*CB^4*EL*Lam4*MHp^2*MW*RR12*SB^3*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  (((3*I)/64)*CB^4*EL*Lam5*MHp^2*MW*RR12*SB^3*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  (((3*I)/64)*CB^3*EL*Lam4*MA0^2*MW*RR11*SB^4*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  (((3*I)/64)*CB^3*EL*Lam5*MA0^2*MW*RR11*SB^4*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  (((3*I)/64)*CB^3*EL*Lam4*MH1^2*MW*RR11*SB^4*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  (((3*I)/64)*CB^3*EL*Lam5*MH1^2*MW*RR11*SB^4*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  (((3*I)/64)*CB^3*EL*Lam4*MHp^2*MW*RR11*SB^4*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  (((3*I)/64)*CB^3*EL*Lam5*MHp^2*MW*RR11*SB^4*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  (((3*I)/64)*CB^2*EL*Lam4*MA0^2*MW*RR12*SB^5*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  (((3*I)/64)*CB^2*EL*Lam5*MA0^2*MW*RR12*SB^5*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  (((3*I)/64)*CB^2*EL*Lam4*MH1^2*MW*RR12*SB^5*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  (((3*I)/64)*CB^2*EL*Lam5*MH1^2*MW*RR12*SB^5*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  (((3*I)/64)*CB^2*EL*Lam4*MHp^2*MW*RR12*SB^5*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  (((3*I)/64)*CB^2*EL*Lam5*MHp^2*MW*RR12*SB^5*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  ((I/64)*CB*EL*Lam4*MA0^2*MW*RR11*SB^6*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  ((I/64)*CB*EL*Lam5*MA0^2*MW*RR11*SB^6*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  ((I/64)*CB*EL*Lam4*MH1^2*MW*RR11*SB^6*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  ((I/64)*CB*EL*Lam5*MH1^2*MW*RR11*SB^6*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  ((I/64)*CB*EL*Lam4*MHp^2*MW*RR11*SB^6*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  ((I/64)*CB*EL*Lam5*MHp^2*MW*RR11*SB^6*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  ((I/64)*EL*Lam4*MA0^2*MW*RR12*SB^7*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  ((I/64)*EL*Lam5*MA0^2*MW*RR12*SB^7*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  ((I/64)*EL*Lam4*MH1^2*MW*RR12*SB^7*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  ((I/64)*EL*Lam5*MH1^2*MW*RR12*SB^7*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) + 
+  ((I/64)*EL*Lam4*MHp^2*MW*RR12*SB^7*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW) - 
+  ((I/64)*EL*Lam5*MHp^2*MW*RR12*SB^7*C0[MH1^2, MHp^2, MHp^2, MW^2, MW^2, MA0^2])/(Pi^4*SW))

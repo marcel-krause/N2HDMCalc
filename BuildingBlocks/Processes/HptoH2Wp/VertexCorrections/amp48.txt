@@ -1,0 +1,8 @@
+I*Pi^2*(((-I/16)*CS1S3S3f112*CS1S3S3f211*EL*(MH2^2 - MHp^2 + MW^2)*(CB*RR11 + RR12*SB)*B0[MH2^2, MW^2, MW^2])/
+   ((MH2 - MHp - MW)*(MH2 + MHp - MW)*(MH2 - MHp + MW)*(MH2 + MHp + MW)*Pi^4*SW) + 
+  ((I/16)*CS1S3S3f112*CS1S3S3f211*EL*(MH2^2 - MHp^2 - MW^2)*(CB*RR11 + RR12*SB)*B0[MHp^2, MH1^2, MW^2])/
+   ((MH2 - MHp - MW)*(MH2 + MHp - MW)*(MH2 - MHp + MW)*(MH2 + MHp + MW)*Pi^4*SW) + 
+  ((I/8)*CS1S3S3f112*CS1S3S3f211*EL*MW^2*(CB*RR11 + RR12*SB)*B0[MW^2, MH1^2, MW^2])/((MH2 - MHp - MW)*(MH2 + MHp - MW)*(MH2 - MHp + MW)*
+    (MH2 + MHp + MW)*Pi^4*SW) - ((I/16)*CS1S3S3f112*CS1S3S3f211*EL*(MH1^2*MH2^2 - MH1^2*MHp^2 + MH1^2*MW^2 + 2*MHp^2*MW^2 - 2*MW^4)*
+    (CB*RR11 + RR12*SB)*C0[MH2^2, MHp^2, MW^2, MW^2, MW^2, MH1^2])/((MH2 - MHp - MW)*(MH2 + MHp - MW)*(MH2 - MHp + MW)*(MH2 + MHp + MW)*
+    Pi^4*SW))*StandardMatrixElement[Pair[Momentum[p3], Momentum[Polarization[p4, -I]]]]

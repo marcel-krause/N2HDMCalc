@@ -1,0 +1,5 @@
+I*Pi^2*(-(EL^3*MC*MD^2*YukS2Quark2*YukS3Quark1*B0[MA0^2, MD^2, MD^2]*CKM[2, 1]*Conjugate[CKM[2, 1]])/(64*MW^3*Pi^4*SW^3) - 
+  (EL*MD*YukS2Quark2*((EL^2*MC^3*MD*SB^2)/(2*MW^2*SW^2) + (EL^2*MC*MD*SB^2*YukS3Quark1)/(2*SW^2) - 
+     (EL^2*MC^3*MD*SB^2*YukS3Quark1)/(2*MW^2*SW^2) - (EL^2*MC*MD^3*SB^2*YukS3Quark1)/(2*MW^2*SW^2) + 
+     (EL^2*MC*MD^3*SB^2*YukS3Quark1^2)/(2*MW^2*SW^2))*C0[MA0^2, MC^2, MC^2, MD^2, MD^2, MW^2]*CKM[2, 1]*Conjugate[CKM[2, 1]])/
+   (32*MW*Pi^4*SB^2*SW))*StandardMatrixElement[Spinor[Momentum[p3], MC, 1] . DiracGamma[5] . Spinor[-Momentum[p4], MC, 1]]

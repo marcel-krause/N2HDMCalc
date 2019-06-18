@@ -1,0 +1,2 @@
+(EL^6*((2*CB*MW*RR11*SW)/EL + (2*MW*RR12*SB*SW)/EL)^2*((2*CB*MW*RR31*SW)/EL + (2*MW*RR32*SB*SW)/EL)*(CW^2 + SW^2)^6*
+  C0[MH1^2, MH1^2, MH3^2, MZ^2, MZ^2, MZ^2])/(32*CW^6*Pi^2*SW^6)

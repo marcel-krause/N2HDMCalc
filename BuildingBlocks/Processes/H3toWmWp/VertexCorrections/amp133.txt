@@ -1,0 +1,3 @@
+-(EL^6*((2*CB*MW*RR21*SW)/EL + (2*MW*RR22*SB*SW)/EL)^2*((2*CB*MW*RR31*SW)/EL + (2*MW*RR32*SB*SW)/EL)*
+   C0[MH3^2, MW^2, MW^2, MW^2, MW^2, MH2^2]*StandardMatrixElement[Pair[Momentum[Polarization[p3, -I]], Momentum[Polarization[p4, -I]]]])/
+ (128*Pi^2*SW^6)

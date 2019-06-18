@@ -1,0 +1,2 @@
+H3 -> S,SBar
+MH3,MS,MS

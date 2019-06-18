@@ -1,0 +1,20 @@
+I*Pi^2*((((I/64)*CS1S3S3f322*EL*MC*MS*YukS1Quark3*(-((CB*EL*MC)/(Sqrt[2]*MW*SW)) + (EL*MS*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*
+      B0[MC^2, MHp^2, MS^2]*CKM[2, 2])/((MC - MHp + MS)*(MC + MHp + MS)*MW*Pi^4*SB*SW) - 
+    ((I/64)*CS1S3S3f322*EL*MS*(MC + MS)*YukS1Quark3*(-((CB*EL*MC)/(Sqrt[2]*MW*SW)) + (EL*MS*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*
+      B0[MHp^2, MH3^2, MHp^2]*CKM[2, 2])/((MC - MHp + MS)*(MC + MHp + MS)*MW*Pi^4*SB*SW) + 
+    ((I/64)*CS1S3S3f322*EL*MS^2*YukS1Quark3*(-((CB*EL*MC)/(Sqrt[2]*MW*SW)) + (EL*MS*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*
+      B0[MS^2, MH3^2, MS^2]*CKM[2, 2])/((MC - MHp + MS)*(MC + MHp + MS)*MW*Pi^4*SB*SW) - 
+    ((I/64)*CS1S3S3f322*EL*MS*(-(MC*MH3^2) + 2*MC^2*MS - 2*MHp^2*MS + 4*MC*MS^2 + 2*MS^3)*YukS1Quark3*
+      (-((CB*EL*MC)/(Sqrt[2]*MW*SW)) + (EL*MS*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*C0[MC^2, MHp^2, MS^2, MS^2, MHp^2, MH3^2]*CKM[2, 2])/
+     ((MC - MHp + MS)*(MC + MHp + MS)*MW*Pi^4*SB*SW))*StandardMatrixElement[Spinor[Momentum[p3], MC, 1] . 
+     Spinor[-Momentum[p4], MS, 1]] + 
+  (((-I/64)*CS1S3S3f322*EL*MC*MS*YukS1Quark3*((CB*EL*MC)/(Sqrt[2]*MW*SW) + (EL*MS*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*B0[MC^2, MHp^2, MS^2]*
+      CKM[2, 2])/((MC - MHp - MS)*(MC + MHp - MS)*MW*Pi^4*SB*SW) + 
+    ((I/64)*CS1S3S3f322*EL*(MC - MS)*MS*YukS1Quark3*((CB*EL*MC)/(Sqrt[2]*MW*SW) + (EL*MS*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*
+      B0[MHp^2, MH3^2, MHp^2]*CKM[2, 2])/((MC - MHp - MS)*(MC + MHp - MS)*MW*Pi^4*SB*SW) + 
+    ((I/64)*CS1S3S3f322*EL*MS^2*YukS1Quark3*((CB*EL*MC)/(Sqrt[2]*MW*SW) + (EL*MS*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*B0[MS^2, MH3^2, MS^2]*
+      CKM[2, 2])/((MC - MHp - MS)*(MC + MHp - MS)*MW*Pi^4*SB*SW) - 
+    ((I/64)*CS1S3S3f322*EL*MS*(MC*MH3^2 + 2*MC^2*MS - 2*MHp^2*MS - 4*MC*MS^2 + 2*MS^3)*YukS1Quark3*
+      ((CB*EL*MC)/(Sqrt[2]*MW*SW) + (EL*MS*SB*YukS3Quark2)/(Sqrt[2]*MW*SW))*C0[MC^2, MHp^2, MS^2, MS^2, MHp^2, MH3^2]*CKM[2, 2])/
+     ((MC - MHp - MS)*(MC + MHp - MS)*MW*Pi^4*SB*SW))*StandardMatrixElement[Spinor[Momentum[p3], MC, 1] . DiracGamma[5] . 
+     Spinor[-Momentum[p4], MS, 1]])

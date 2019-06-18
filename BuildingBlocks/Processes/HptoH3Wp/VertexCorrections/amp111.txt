@@ -1,0 +1,15 @@
+I*Pi^2*(((I/128)*EL^3*(CB*RR32 - RR31*SB)*(CB^2 + SB^2)^2*A0[MA0^2])/(MHp^2*Pi^4*SW^3) + 
+  ((I/128)*EL^3*(CB*RR32 - RR31*SB)*(CB^2 + SB^2)^2*A0[MHp^2])/(MH3^2*Pi^4*SW^3) - 
+  ((I/128)*EL^3*(MH3^2 + MHp^2)*(CB*RR32 - RR31*SB)*(CB^2 + SB^2)^2*A0[MW^2])/(MH3^2*MHp^2*Pi^4*SW^3) + 
+  ((I/128)*EL^3*(2*MA0^2*MH3^4 + MH3^6 - 2*MA0^2*MH3^2*MHp^2 + 3*MH3^4*MHp^2 - 3*MH3^2*MHp^4 - MHp^6 + 2*MA0^2*MH3^2*MW^2 - MH3^4*MW^2 + 
+     12*MH3^2*MHp^2*MW^2 + 3*MHp^4*MW^2 - 9*MH3^2*MW^4 - 3*MHp^2*MW^4 + MW^6)*(CB*RR32 - RR31*SB)*(CB^2 + SB^2)^2*
+    B0[MH3^2, MHp^2, MW^2])/(MH3^2*(MH3 - MHp - MW)*(MH3 + MHp - MW)*(MH3 - MHp + MW)*(MH3 + MHp + MW)*Pi^4*SW^3) - 
+  ((I/128)*EL^3*(MA0^2*MH3^4 + 3*MH3^4*MHp^2 - MA0^2*MHp^4 - 3*MHp^6 - 2*MA0^2*MH3^2*MW^2 - MH3^4*MW^2 - 4*MA0^2*MHp^2*MW^2 - 
+     8*MH3^2*MHp^2*MW^2 - MHp^4*MW^2 + MA0^2*MW^4 + 2*MH3^2*MW^4 + 9*MHp^2*MW^4 - MW^6)*(CB*RR32 - RR31*SB)*(CB^2 + SB^2)^2*
+    B0[MHp^2, MA0^2, MW^2])/(MHp^2*(MH3 - MHp - MW)*(MH3 + MHp - MW)*(MH3 - MHp + MW)*(MH3 + MHp + MW)*Pi^4*SW^3) - 
+  ((I/32)*EL^3*MW^2*(MA0^2 + MH3^2 + 2*MHp^2 - 3*MW^2)*(CB*RR32 - RR31*SB)*(CB^2 + SB^2)^2*B0[MW^2, MA0^2, MHp^2])/
+   ((MH3 - MHp - MW)*(MH3 + MHp - MW)*(MH3 - MHp + MW)*(MH3 + MHp + MW)*Pi^4*SW^3) + 
+  ((I/64)*EL^3*(MA0^2 + MH3^2 + 2*MHp^2 - 3*MW^2)*(MA0^2*MH3^2 - MA0^2*MHp^2 - MH3^2*MHp^2 + MHp^4 + MA0^2*MW^2 + MH3^2*MW^2 + 
+     2*MHp^2*MW^2 - 3*MW^4)*(CB*RR32 - RR31*SB)*(CB^2 + SB^2)^2*C0[MH3^2, MHp^2, MW^2, MHp^2, MW^2, MA0^2])/
+   ((MH3 - MHp - MW)*(MH3 + MHp - MW)*(MH3 - MHp + MW)*(MH3 + MHp + MW)*Pi^4*SW^3))*
+ StandardMatrixElement[Pair[Momentum[p3], Momentum[Polarization[p4, -I]]]]

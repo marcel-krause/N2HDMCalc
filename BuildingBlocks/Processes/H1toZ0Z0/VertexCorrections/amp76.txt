@@ -1,0 +1,18 @@
+I*Pi^2*((((I/128)*EL^4*(MH1^2 - 2*MZ^2)*(CB*RR11 + RR12*SB)^2*((2*CB*MW*RR11*SW)/EL + (2*MW*RR12*SB*SW)/EL)*(CW^2 + SW^2)^4)/
+     (CW^4*MH1^2*(MH1^2 - 4*MZ^2)*Pi^4*SW^4) - ((I/64)*EL^4*(CB*RR11 + RR12*SB)^2*((2*CB*MW*RR11*SW)/EL + (2*MW*RR12*SB*SW)/EL)*
+      (CW^2 + SW^2)^4*A0[MH1^2])/(CW^4*MH1^2*(MH1^2 - 4*MZ^2)*Pi^4*SW^4) + 
+    ((I/64)*EL^4*(CB*RR11 + RR12*SB)^2*((2*CB*MW*RR11*SW)/EL + (2*MW*RR12*SB*SW)/EL)*(CW^2 + SW^2)^4*A0[MZ^2])/
+     (CW^4*MH1^2*(MH1^2 - 4*MZ^2)*Pi^4*SW^4) + ((I/64)*EL^4*(4*MH1^4 - 11*MH1^2*MZ^2 + 4*MZ^4)*(CB*RR11 + RR12*SB)^2*
+      ((2*CB*MW*RR11*SW)/EL + (2*MW*RR12*SB*SW)/EL)*(CW^2 + SW^2)^4*B0[MH1^2, MZ^2, MZ^2])/(CW^4*MH1^2*(MH1^2 - 4*MZ^2)^2*Pi^4*SW^4) - 
+    ((I/64)*EL^4*(3*MH1^4 - 6*MH1^2*MZ^2)*(CB*RR11 + RR12*SB)^2*((2*CB*MW*RR11*SW)/EL + (2*MW*RR12*SB*SW)/EL)*(CW^2 + SW^2)^4*
+      B0[MZ^2, MH1^2, MZ^2])/(CW^4*MH1^2*(MH1^2 - 4*MZ^2)^2*Pi^4*SW^4) + 
+    ((I/64)*EL^4*(5*MH1^4 - 16*MH1^2*MZ^2 + 8*MZ^4)*(CB*RR11 + RR12*SB)^2*((2*CB*MW*RR11*SW)/EL + (2*MW*RR12*SB*SW)/EL)*(CW^2 + SW^2)^4*
+      C0[MH1^2, MZ^2, MZ^2, MZ^2, MZ^2, MH1^2])/(CW^4*(MH1^2 - 4*MZ^2)^2*Pi^4*SW^4))*
+   StandardMatrixElement[Pair[Momentum[p3], Momentum[Polarization[p4, -I]]]*Pair[Momentum[p4], Momentum[Polarization[p3, -I]]]] + 
+  (((-I/256)*EL^4*(CB*RR11 + RR12*SB)^2*((2*CB*MW*RR11*SW)/EL + (2*MW*RR12*SB*SW)/EL)*(CW^2 + SW^2)^4)/(CW^4*Pi^4*SW^4) - 
+    ((I/256)*EL^4*(3*MH1^2 - 4*MZ^2)*(CB*RR11 + RR12*SB)^2*((2*CB*MW*RR11*SW)/EL + (2*MW*RR12*SB*SW)/EL)*(CW^2 + SW^2)^4*
+      B0[MH1^2, MZ^2, MZ^2])/(CW^4*(MH1^2 - 4*MZ^2)*Pi^4*SW^4) + 
+    ((I/128)*EL^4*MH1^2*(CB*RR11 + RR12*SB)^2*((2*CB*MW*RR11*SW)/EL + (2*MW*RR12*SB*SW)/EL)*(CW^2 + SW^2)^4*B0[MZ^2, MH1^2, MZ^2])/
+     (CW^4*(MH1^2 - 4*MZ^2)*Pi^4*SW^4) - ((I/128)*EL^4*MH1^2*(2*MH1^2 - 4*MZ^2)*(CB*RR11 + RR12*SB)^2*
+      ((2*CB*MW*RR11*SW)/EL + (2*MW*RR12*SB*SW)/EL)*(CW^2 + SW^2)^4*C0[MH1^2, MZ^2, MZ^2, MZ^2, MZ^2, MH1^2])/
+     (CW^4*(MH1^2 - 4*MZ^2)*Pi^4*SW^4))*StandardMatrixElement[Pair[Momentum[Polarization[p3, -I]], Momentum[Polarization[p4, -I]]]])
