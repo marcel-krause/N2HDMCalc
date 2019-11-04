@@ -3,43 +3,43 @@
 
 
  ###################################################################################
-#																					#
-#									N2HDMCalc										#
-#																					#
-#	Purpose:	Calculate amplitudes and decay rates for 2HDM processes at NLO.		#
-#	Author: 	Dr. Marcel Krause (marcel.krause@kit.edu)							#
-#	Version:	1.0.1																#
-#	Date:		10.09.2019															#
-#																					#
+#                                                                                   #
+#                                    N2HDMCalc                                      #
+#                                                                                   #
+#    Purpose:    Calculate amplitudes and decay rates for N2HDM processes at NLO.   #
+#    Author:     Dr. Marcel Krause (marcel.krause@alumni.kit.edu)                   #
+#    Version:    1.0.2                                                              #
+#    Date:       04.11.2019                                                         #
+#                                                                                   #
  ###################################################################################
 
 
 #------------------------------#
-#		 Import Modules		   #
+#         Import Modules       #
 #------------------------------#
 import sys
 import os
 from shutil import copyfile, rmtree
 import subprocess
 import multiprocessing
-import CommonFunctions			# Provides common, often used functions for different scripts of N2HDMCalc
-from Configuration import *		# Load the configuration file
-from ParticleContent import particles2HDM, particleMasses	# Load the particle content and masses of the model
+import CommonFunctions             # Provides common, often used functions for different scripts of N2HDMCalc
+from Configuration import *        # Load the configuration file
+from ParticleContent import particles2HDM, particleMasses    # Load the particle content and masses of the model
 
 
 #-------------------------#
-#		 Functions		  #
+#         Functions       #
 #-------------------------#
 def validInput(candidateInput):
 	'''
 		Check if the user input is a valid process for N2HDMCalc. This checks if
-			1. all particles entered are part of the 2HDM,
+			1. all particles entered are part of the N2HDM,
 			2. it is a valid topology for N2HDMCalc (at the moment, only 1 -> 2 is supported).
 		Returns a list of lists of the following form: {{AAParticle, BBParticle, ...}, {XXParticle, YYParticle, ...}, {AAValid, BBValid, ...}, {XXValid, YYValid, ...}},
 		where the first two lists, the "Particle" entries, are strings with the respective incoming and outgoing particles (or empty strings if the particle is not specified)
-		and the second two lists, the "Valid" entries, are Boolean values indicating if the particles exist within the 2HDM or not.
+		and the second two lists, the "Valid" entries, are Boolean values indicating if the particles exist within the N2HDM or not.
 
-		Note that this function does NOT explicitly check if the process itself is possible in the 2HDM, i.e. if the necessary couplings exists, if the (electric) charge is conserved, and so on.
+		Note that this function does NOT explicitly check if the process itself is possible in the N2HDM, i.e. if the necessary couplings exists, if the (electric) charge is conserved, and so on.
 		It just checks the validity of the input with respect to syntax and N2HDMCalc functionality.
 	'''
 	# Remove all whitespaces from the input
@@ -61,17 +61,17 @@ def validInput(candidateInput):
 	if not noError:
 		return({False,{},{}})
 
-	# If incoming and outgoing particles are specified, check if all particles are part of the 2HDM
+	# If incoming and outgoing particles are specified, check if all particles are part of the N2HDM
 	for i in range(0,len(incomingParticles)):
 		if incomingParticles[i] not in particles2HDM:
 			noError = False
-			print('\nError: the incoming particle {0} does not live inside the 2HDM.'.format(incomingParticles[i]))
+			print('\nError: the incoming particle {0} does not live inside the N2HDM.'.format(incomingParticles[i]))
 	for i in range(0,len(outgoingParticles)):
 		if outgoingParticles[i] not in particles2HDM:
 			noError = False
-			print('\nError: the outgoing particle {0} does not live inside the 2HDM.'.format(outgoingParticles[i]))
+			print('\nError: the outgoing particle {0} does not live inside the N2HDM.'.format(outgoingParticles[i]))
 
-	# If at least one particle is not part of the 2HDM, we tell the user and continue to the next while loop instance. Otherwise, we return the particles.
+	# If at least one particle is not part of the N2HDM, we tell the user and continue to the next while loop instance. Otherwise, we return the particles.
 	if noError:
 		return([True,incomingParticles,outgoingParticles])
 	else:
@@ -266,7 +266,7 @@ def calcDecayWidthLT(parameterFile):
 	processIdCurrent = processIdExtractor[0]
 	parameterFileProcessed = processIdExtractor[1]
 
-	# Extract the 2HDM type of the file
+	# Extract the N2HDM type of the file
 	# typeExtractor = parameterFileProcessed.split('_')
 	# typeOf2HDM = typeExtractor[0].replace('type', '')
 
@@ -292,7 +292,7 @@ def calcDecayUVDivergence(processId):
 		print('ERROR: no parameter files given!\n')
 		return
 
-	# Extract the 2HDM type of the file
+	# Extract the N2HDM type of the file
 	# typeExtractor = parameterList[0].split('_')
 	# typeOf2HDM = typeExtractor[0].replace('type', '')
 
@@ -316,7 +316,7 @@ def calcDecayIRDivergence(processId):
 		print('ERROR: no parameter files given!\n')
 		return
 
-	# Extract the 2HDM type of the file
+	# Extract the N2HDM type of the file
 	# typeExtractor = parameterList[0].split('_')
 	# typeOf2HDM = typeExtractor[0].replace('type', '')
 
@@ -340,7 +340,7 @@ def calcDecayGaugeDependence(processId):
 		print('ERROR: no parameter files given!\n')
 		return
 
-	# Extract the 2HDM type of the file
+	# Extract the N2HDM type of the file
 	# typeExtractor = parameterList[0].split('_')
 	# typeOf2HDM = typeExtractor[0].replace('type', '')
 
@@ -434,7 +434,7 @@ if __name__ == "__main__":		# This is necessary for correct parallelisation unde
 	print('''
 	+---------------------------------------+
 	|                                       |
-	|             N2HDMCalc 1.0.1           |
+	|             N2HDMCalc 1.0.2           |
 	|                                       |
 	|                              /        |
 	|                             /         |
@@ -481,7 +481,7 @@ if __name__ == "__main__":		# This is necessary for correct parallelisation unde
 			if processCandidate.lower() in quitter:		# Escape sequence defined in quitter, gives the user the chance to quit the script.
 					print("No process specified. N2HDMCalc will terminate now.\n")
 					sys.exit()
-			elif processCandidate.lower() == "help":	# Prints a small help showing the input syntax and particles of the 2HDM.
+			elif processCandidate.lower() == "help":	# Prints a small help showing the input syntax and particles of the N2HDM.
 				print('''
 	A process has to be entered in the following way:
 		AA to XX,YY
